@@ -23,7 +23,8 @@ th, td {
 /* ------------------------------------Content-------------------------------------- */
 
 .bio {
-    border: 2px wheat solid;
+    border: 2px rgb(222, 210, 188) solid;
+    border-radius: 25px;
 }
 
 .video-wrapper {
