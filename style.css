@@ -20,6 +20,11 @@ table, th, td {
 th, td {
     padding: 10px;
 }
+/* ------------------------------------Content-------------------------------------- */
+
+.bio {
+    border: 2px wheat solid;
+}
 
 .video-wrapper {
     position: relative;
