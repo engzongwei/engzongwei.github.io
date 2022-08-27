@@ -20,9 +20,10 @@ table, th, td {
 th, td {
     padding: 10px;
 }
+
 /* ------------------------------------Content-------------------------------------- */
 
-#bio {
+p#bio {
     border: 2px rgb(222, 210, 188) solid;
     border-radius: 25px;
 }
