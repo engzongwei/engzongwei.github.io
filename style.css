@@ -22,7 +22,7 @@ th, td {
 }
 /* ------------------------------------Content-------------------------------------- */
 
-.bio {
+#bio {
     border: 2px rgb(222, 210, 188) solid;
     border-radius: 25px;
 }
@@ -35,7 +35,7 @@ th, td {
 
 .video-wrapper iframe {
     position: absolute;
-    margin: 5% 15%;
+    margin: 0 15%;
     width: 70%;
     height: 70%;
 }
