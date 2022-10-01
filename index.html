@@ -10,37 +10,70 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
 </head>
-<body>
-    <div class="bg-dark font-monospace text-white">
-        <nav class="navbar navbar-dark bg-dark sticky-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Eng Zong Wei</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="bts/home.html">BTS</a>
-                    <a class="nav-link" href="tuition/home.html">Tuition</a>
-                </div>
+<body class="bg-dark text-white">
+    <div class="container-fluid font-monospace">
+        <!-- Start Navbar -->
+        <div class="row">
+            <div class="col-10 mx-auto mb-4">
+                <nav class="navbar navbar-expand-sm navbar-dark sticky-top mx-0">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Eng Zong Wei</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav mx-3">
+                            <a class="nav-link active px-3" aria-current="page" href="#">Home</a>
+                            <a class="nav-link px-3" href="bts/home.html">BTS</a>
+                            <a class="nav-link px-3" href="tuition/home.html">Tuition</a>
+                        </div>
+                        </div>
+                    </div>
+                 </nav> 
+            </div>
+        </div><!-- End Navbar -->
+
+        <!-- Bio -->
+        <div class="row">
+            <div class="col-10 mx-auto mb-4">
+                <h1>Biography</h1>
+                <p class="border border-light rounded-2 mt-4 p-5">
+                    Hi! I am Eng Zong Wei and I'm currently a Year 2 Information Systems student in Singapore Management University. What you will see in this page is just a collection of things that I am interested in. Hope you enjoy your stay!
+                </p>
+            </div>
+        </div> <!-- End Bio -->
+
+        <!-- Video -->
+        <div class="row">
+            <div class="col">
+                <h1>Favourite Travel Destination</h1>
+                <div class="video-wrapper mt-4">
+                    <iframe src="https://www.youtube.com/embed/acE1UZhf2Ck?rel=0&amp;autoplay=1&mute=1" title="BMPCC Cinematic 4K: London" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
-        </nav>
-
-        <h1>Biography</h1>
-        <p class="border border-light rounded-2">
-            Hi! I am Eng Zong Wei and I'm currently a Year 2 Information Systems student in Singapore Management University. What you will see in this page is just a collection of things that I am interested in. Hope you enjoy your stay!
-        </p>
-
-
-        <h1>Favourite Travel Destination</h1>
-        <div class="video-wrapper">
-            <iframe src="https://www.youtube.com/embed/acE1UZhf2Ck?rel=0&amp;autoplay=1&mute=1" title="BMPCC Cinematic 4K: London" frameborder="0" allowfullscreen></iframe>
-        </div>
+        </div> <!-- End Video -->
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col p-0">
+                    <ul class="nav justify-content-center text-bg-secondary">
+                        <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="https://github.com/engzongwei" target="_blank"><img src="assets/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png"></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                        <a class="nav-link" href="https://www.linkedin.com/in/engzongwei" target="_blank"><img src="assets/LinkedIn-Logos/LI-In-Bug.png" style="width: 32px; height:32px;"></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                        <a class="nav-link" href="https://www.instagram.com/e.zw/" target="_blank"><img src="assets/instagram.png"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
 </body>
 </html>
